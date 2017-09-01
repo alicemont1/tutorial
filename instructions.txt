@@ -19,16 +19,25 @@ git rm --chached <file> #removes file from staging area
 
 git add . 	#adds all files 
 
-git touch #creates a file
+git touch 	#creates a file
 
 
 
-With edit stage (BAD)
+#With edit stage (BAD)
 git commit
 to enter insert mode type I
 to get out of insert mode hit esp and write :wq
 
-Without edit stage (good)
+#Without edit stage (good)
 git commmit -m 'Change'
 
-branches
+#adding branch
+git checkout branchname
+
+#going back to master
+git checkout master
+
+Remote repository
+git remote
+
+
