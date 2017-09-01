@@ -41,6 +41,9 @@ Remote repository
 git remote add origin https://github.com/alicemont1/tutorial.git
 git push -u origin master
 
+clonign a folder
+git clone <add link from github>
+
 
 
 
