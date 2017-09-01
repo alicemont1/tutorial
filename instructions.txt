@@ -1,0 +1,32 @@
+git init	#creates a .git folder in repository
+gitt add <>	#adds the files to the repository and makes it ready to commit
+git status	#see what you have for the staging area 
+git commit	#takes everything in staging area and puts it in local repository
+git push	#pushes to the remote repository such as github
+git pull	#get changes from remot repository
+git clone	#copies repository onto your git folder
+
+you should add your name and email address to what you create
+git config --global user.name 'Alice'
+git config --global user.email 'Alice'
+
+git add index.html
+git status
+
+git add *.py 	#adds all python files to staging area
+
+git rm --chached <file> #removes file from staging area
+
+git add . 	#adds all files 
+
+git touch #creates a file
+
+
+
+With edit stage (BAD)
+git commit
+to enter insert mode type I
+to get out of insert mode hit esp and write :wq
+
+Without edit stage (good)
+git commmit -m 'Change'
