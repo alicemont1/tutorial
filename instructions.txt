@@ -30,3 +30,5 @@ to get out of insert mode hit esp and write :wq
 
 Without edit stage (good)
 git commmit -m 'Change'
+
+seee
