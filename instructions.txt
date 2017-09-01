@@ -38,6 +38,9 @@ git checkout branchname
 git checkout master
 
 Remote repository
-git remote
+git remote add origin https://github.com/alicemont1/tutorial.git
+git push -u origin master
+
+
 
 
